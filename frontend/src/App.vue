@@ -2,15 +2,15 @@
 import carRentIcon from '@/assets/images/carRent.png';
 </script>
 <template>
+  
   <div class="min-h-screen flex flex-col bg-gray-50">
     <!-- NAVBAR -->
     <nav class="bg-white shadow p-4 flex justify-between items-center">
-        <img
-        :src="carRentIcon"
-        alt="Ícone"
-        class="h-8 w-8 mr-3"
-      />
-      <h1 class="text-2xl font-bold text-blue-600">CarRent</h1>
+       <div class="flex items-center space-x-3">
+    <img :src="carRentIcon" alt="Ícone" class="h-10 w-10" />
+    <h1 class="text-2xl font-bold text-blue-600">CarRent</h1>
+  </div>
+
       <div class="space-x-4">
         <router-link to="/" class="text-gray-700 hover:text-blue-600">Home</router-link>
         <router-link to="/login" class="text-gray-700 hover:text-blue-600">Login</router-link>
@@ -91,7 +91,7 @@ export default {
           year: 2020,
           pricePerDay: 240,
           image:
-            "https://www.autoo.com.br/fotos/2019/2/1280_960/volkswagen_t-cross_2020_1_21022019_11764_1280_960.jpg",
+            "https://gurudoscarros.com.br/wp-content/uploads/2024/08/vwtcross_sense_2.jpg",
         },
         {
           id: 5,
@@ -101,6 +101,15 @@ export default {
           pricePerDay: 210,
           image:
             "https://garagem360.com.br/wp-content/uploads/2021/07/ChevroletOnixRS2022dianteira.jpg",
+        },
+          {
+          id: 5,
+          brand: "Fiat",
+          model: "Uno Mille",
+          year: 2002,
+          pricePerDay: 80,
+          image:
+            "https://img2.icarros.com/dbimg/imgmodelo/0/269_4.jpg",
         },
       ],
     };
