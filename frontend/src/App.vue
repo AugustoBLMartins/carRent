@@ -1,8 +1,16 @@
+<script setup>
+import carRentIcon from '@/assets/images/carRent.png';
+</script>
 <template>
   <div class="min-h-screen flex flex-col bg-gray-50">
     <!-- NAVBAR -->
     <nav class="bg-white shadow p-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold text-blue-600">🚗 CarRent</h1>
+        <img
+        :src="carRentIcon"
+        alt="Ícone"
+        class="h-8 w-8 mr-3"
+      />
+      <h1 class="text-2xl font-bold text-blue-600">CarRent</h1>
       <div class="space-x-4">
         <router-link to="/" class="text-gray-700 hover:text-blue-600">Home</router-link>
         <router-link to="/login" class="text-gray-700 hover:text-blue-600">Login</router-link>
