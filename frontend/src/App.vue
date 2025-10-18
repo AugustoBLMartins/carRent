@@ -12,7 +12,7 @@ import carRentIcon from '@/assets/images/carRent.png';
   </div>
 
       <div class="space-x-4">
-        <router-link to="/" class="text-gray-700 hover:text-blue-600">Home</router-link>
+        <router-link to="/" exact class="text-gray-700 hover:text-blue-600">Home</router-link>
         <router-link to="/login" class="text-gray-700 hover:text-blue-600">Login</router-link>
         <router-link to="/admin" class="text-gray-700 hover:text-blue-600">Admin</router-link>
       </div>
@@ -45,6 +45,11 @@ import carRentIcon from '@/assets/images/carRent.png';
       </div>
     </main>
 
+     <!-- Onde as páginas serão renderizadas -->
+    <main class="flex-grow p-6">
+      <router-view />
+    </main>
+
     <!-- RODAPÉ -->
     <footer class="bg-white shadow-inner text-center py-4 text-gray-600">
       <p>&copy; {{ new Date().getFullYear() }} CarRent - Todos os direitos reservados.</p>
@@ -54,6 +59,11 @@ import carRentIcon from '@/assets/images/carRent.png';
 
 <script>
 export default {
+  methods: {
+    irHome() {
+      console.log("botao funcionando")
+    }
+  },
   data() {
     return {
       cars: [
