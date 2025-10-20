@@ -17,8 +17,7 @@
         <p class="text-gray-600 mb-2">Ano: {{ car.year }}</p>
         <p class="text-blue-600 font-bold mb-3">R$ {{ car.pricePerDay }} / dia</p>
         <button
-          class="bg-blue-600 text-white w-full py-2 rounded-lg hover:bg-blue-700 transition"
-        >
+          class="bg-blue-600 text-white w-full py-2 rounded-lg hover:bg-blue-700 transition" @click="irParaBookNow">
           Book now
         </button>
       </div>
@@ -39,6 +38,11 @@ export default {
         { id: 5, brand: "Chevrolet", model: "Onix", year: 2022, pricePerDay: 210, image: "https://garagem360.com.br/wp-content/uploads/2021/07/ChevroletOnixRS2022dianteira.jpg" },
         { id: 6, brand: "Fiat", model: "Uno Mille", year: 2002, pricePerDay: 80, image: "https://img2.icarros.com/dbimg/imgmodelo/0/269_4.jpg" },
       ]
+    }
+  },
+  methods: {
+    irParaBookNow(){
+      this.$router.push('/BookNow')
     }
   }
 }
