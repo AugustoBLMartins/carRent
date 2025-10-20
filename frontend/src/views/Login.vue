@@ -5,18 +5,18 @@
     </h1>
         <div class="flex flex-col">
             <p class="text-lg opacity-90 text-center font-bold">
-            Username:
+            E-mail:
             </p>
-            <input type="text"
-            v-model="nome"
-            placeholder="Username"
+            <input type="e-mail"
+            v-model="email"
+            placeholder="E-mail"
             class="border border-gray-300 rounded-full px-3 py-2"
             />
             <p class="text-lg opacity-90 text-center font-bold">
             Password:
             </p>
             <input type="password"
-            v-model="nome"
+            v-model="password"
             placeholder="Password"
             class="border border-gray-300 rounded-full px-3 py-2"
             />

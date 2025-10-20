@@ -4,7 +4,7 @@
     <nav class="bg-white shadow p-4 flex justify-between items-center">
       <div class="flex items-center space-x-3">
         <img :src="carRentIcon" alt="Ícone" class="h-10 w-10" />
-        <h1 class="text-2xl font-bold text-blue-600">CarRent</h1>
+        <h1 class="text-2xl font-bold text-blue-600"><router-link to="/">CarRent</router-link></h1>
       </div>
 
       <div class="space-x-4">
