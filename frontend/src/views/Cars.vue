@@ -19,7 +19,7 @@
         <button
           class="bg-blue-600 text-white w-full py-2 rounded-lg hover:bg-blue-700 transition"
         >
-          Reservar
+          Book now
         </button>
       </div>
     </div>
