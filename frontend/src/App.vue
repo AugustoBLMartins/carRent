@@ -11,7 +11,7 @@
         <router-link to="/" class="text-gray-700 hover:text-blue-600">Home</router-link>
         <router-link to="/Cars" class="text-gray-700 hover:text-blue-600">Cars</router-link>
         <router-link to="/Login" class="text-gray-700 hover:text-blue-600">Login</router-link>
-        <router-link to="/Admin" class="text-gray-700 hover:text-blue-600">Admin</router-link>
+        <router-link to="/Booking" class="text-gray-700 hover:text-blue-600">Booking</router-link>
       </div>
     </nav>
 
