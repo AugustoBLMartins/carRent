@@ -40,21 +40,21 @@
     </section>
      <section class="max-w-3xl mx-auto text-gray-700">
       <h2 class="text-3xl font-bold mb-4 text-blue-700 text-left">Por que alugar com a CarRent é economia inteligente?</h2>
-      <p class="text-lg leading-relaxed text-left text-justify">
-        Na CarRent, você não paga pelo carro — você paga pela liberdade de escolher quando e como quer usá-lo.
-        Enquanto ter um carro próprio envolve gastos altos com IPVA, seguro, manutenção, combustível e depreciação, aqui você paga somente pelos dias em que realmente precisa.
+        <p class="text-lg leading-relaxed text-left text-justify">
+          Na CarRent, você não paga pelo carro — você paga pela liberdade de escolher quando e como quer usá-lo.
+          Enquanto ter um carro próprio envolve gastos altos com IPVA, seguro, manutenção, combustível e depreciação, aqui você paga somente pelos dias em que realmente precisa.
+        </p>
       <ul class="list-disc list-inside space-y-2 text-gray-700 leading-relaxed text-justify">
         <li>Precisa viajar no fim de semana? Alugue..</li>
         <li>Vai usar o carro para um evento? Reserve apenas por algumas horas.</li>
         <li>Sem surpresas, sem custos escondidos — você controla seu gasto de verdade.</li>
       </ul>
-      </p>
-      <p class="text-lg leading-relaxed text-left text-justify">
-        Além disso, nossa frota é nova, revisada e com seguro incluso, o que significa que você economiza tempo, dinheiro e preocupação.
-        Com a CarRent, a economia não está só no preço: está na praticidade de ter um carro sempre disponível, sem os custos de tê-lo parado na garagem.
+        <p class="text-lg leading-relaxed text-left text-justify">
+          Além disso, nossa frota é nova, revisada e com seguro incluso, o que significa que você economiza tempo, dinheiro e preocupação.
+          Com a CarRent, a economia não está só no preço: está na praticidade de ter um carro sempre disponível, sem os custos de tê-lo parado na garagem.
         <br/>
         CarRent — mais liberdade, menos despesas.
-      </p>
+        </p>
     </section>
     <br/>
     <RouterLink to="/cars" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">

@@ -17,8 +17,12 @@
         <p class="text-gray-600 mb-2">Ano: {{ car.year }}</p>
         <p class="text-blue-600 font-bold mb-3">R$ {{ car.pricePerDay }} / dia</p>
         <button
+<<<<<<< HEAD
           class="bg-blue-600 text-white w-full py-2 rounded-lg hover:bg-blue-700 transition"
           @click="handleBooking">
+=======
+          class="bg-blue-600 text-white w-full py-2 rounded-lg hover:bg-blue-700 transition" @click="irParaBookNow">
+>>>>>>> 319e9eb44676620805d7127876b09832760c464d
           Book now
         </button>
       </div>
@@ -42,6 +46,7 @@ export default {
     }
   },
   methods: {
+<<<<<<< HEAD
     handleBooking(carId) {
       const isAuthenticated = false; // Aqui você usaria a lógica do seu Pinia/Store
 
@@ -55,6 +60,10 @@ export default {
           query: { redirect: `/checkout/${carId}` }
         });
       }
+=======
+    irParaBookNow(){
+      this.$router.push('/BookNow')
+>>>>>>> 319e9eb44676620805d7127876b09832760c464d
     }
   }
 }
